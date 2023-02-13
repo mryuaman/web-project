@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	background: url("C:\Users\acary\OneDrive\Masaüstü\LE'MANS\maxresdefault.jpg");
+	height: 100vh;
+	background-size: 100% 100%;
+}
+/*navbar kısmı*/
+
+.container .navbar{
+	width: 100%;
+	height: 150px;                                                           
+	background-color:#DEF5E5;
+}
+
+.navbar .logo{
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.navbar .logo a{
+	text-decoration: none;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #624F82;
+}
+
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+    margin-top: 20px
+
+}
+
+.navbar ul li{
+	 list-style: none;
+	 display:inline-block;
+	 margin: 0 8;
+	 line-height: 80px;
+	 background-color: #BCEAD5;
+
+}
+
+.navbar ul li a{
+	color: #624F82;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 5px 15px;
+	font-family: sans-serif;
+}
+
+/*paragrafarın ve resimlerin olduğu kısımlar*/
+.pargone{
+	width: 100%;
+	height: 500px;
+	background-color:#BCEAD5;
+
+}
+.fimage{
+	float:right;
+	padding-top: 70px;
+	padding-right: 40px;
+	padding-left: 15px;
+    border-width: 1px;
+border-style:solid;
+}
+.parag{
+	padding-top: 70px;
+	margin-left: 5%;
+	font-size: 25px;
+	font-family: sans-serif;
+	text-align: justify;
+
+}
+
+.pargone{
+	width: 100%;
+	height: 500px;
+	background-color:#BCEAD5;
+
+}
+
+.parag2{
+	background-color:#9ED5C5;
+	width: 100%;
+	height: 400px;
+	font-size: 25px;
+	margin-right: 10%;
+	text-align: justify;
+	font-family: sans-serif;
+	padding-top: 300px;
+
+}
+
+.fimage1{
+	float:left;
+	padding-bottom: 30px;
+	padding-top: 150px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.parag3{
+    background-color:#BCEAD5;
+	width: 100%;
+	height: 500px;
+	font-size: 25px;
+	margin-right: 5%;
+}
+
+.parag3 .text {
+	background-color:#BCEAD5;
+	width: 750px;
+	float: left;
+	padding-left:35px;
+	text-align: justify;
+}
+.parag3 .text p{
+	background-color:#BCEAD5;
+	font-size: 25px;
+	text-align: justify;
+	margin-top: 50px;
+    font-family: sans-serif;
+
+}
+.parag3 .iframe{
+	background-color:#BCEAD5;
+	width: 600px;
+	height: 450px;
+	float: right;
+	padding-right: 35px;
+	margin-top: 90px;
+    font-family: sans-serif;
+
+}
+.parag4{
+	background-color:#94B49F;
+	width: 100%;
+	height: 650px;
+	font-size: 25px;
+	margin-right: 5%;
+	font-family: sans-serif;
+
+}
+
+.iframeon{
+	float:right;
+	padding-bottom: 30px;
+	padding-top: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*form kısmı*/
+
+.form{
+	text-align: center;
+}
+
+a:hover {
+  background-color: hotpink;
+}
+}
